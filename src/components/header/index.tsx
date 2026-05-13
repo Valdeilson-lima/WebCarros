@@ -7,8 +7,8 @@ export default function Header() {
   const loadingAuth = false;
   return (
     <div className="w-full flex items-center justify-center h-16 bg-white drop-shadow-md mb-4">
-      <header className="w-full max-w-7xl flex items-center justify-between px-4 mx-auto">
-        <Link to="/" className="flex items-center gap-2 px-4 py-3">
+      <header className="w-full max-w-7xl flex items-center justify-between px-4">
+        <Link to="/" className="flex items-center">
           <img src={logoImg} alt="Logo" className="h-8" />
         </Link>
 
